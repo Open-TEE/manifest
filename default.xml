@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <manifest>
-  <remote fetch="git@github.com:Open-TEE/" name="origin"/>
+  <remote fetch="https://github.com/Open-TEE/" name="origin"/>
   <default remote="origin" revision="master" />
   <project name="TEE-Emu-Driver" path="driver" />
   <project name="TEE-Emu" path="emulator" />
