@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="https://github.com/Open-TEE/" name="origin"/>
   <default remote="origin" revision="master" />
-  <project name="utils_n_docs" path="utils_n_docs" >
+  <project name="project" path="project" >
     <copyfile src="README.md" dest="README" />
     <copyfile src="project.qbs" dest="project.qbs" />
   </project>
