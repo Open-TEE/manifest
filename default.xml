@@ -5,6 +5,7 @@
   <project name="project" path="project" >
     <copyfile src="README.md" dest="README" />
     <copyfile src="project.qbs" dest="project.qbs" />
+    <copyfile src=".editorconfig" dest=".editorconfig" />
   </project>
   <project name="TEE-Emu-Driver" path="driver" />
   <project name="TEE-Emu" path="emulator" />
