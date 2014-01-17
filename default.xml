@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <manifest>
-  <remote fetch="https://github.com/Open-TEE/" name="origin"/>
+  <remote fetch="https://github.com/Open-TEE/" name="origin" review="https://review.gerrithub.io/Open-TEE" />
   <default remote="origin" revision="master" />
   <project name="project" path="project" >
     <copyfile src="README.md" dest="README" />
