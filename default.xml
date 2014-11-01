@@ -11,6 +11,6 @@
   <project name="TEE-Emu" path="emulator" />
   <project name="libtee" path="libtee" />
   <project name="test_clients" path="test_clients" />
-  <project name="tests" path="tests"
+  <project name="tests" path="tests" />
   <project name="TA_tests" path="TAs" />
 </manifest>
