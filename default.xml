@@ -7,9 +7,10 @@
     <copyfile src="project.qbs" dest="project.qbs" />
     <copyfile src=".editorconfig" dest=".editorconfig" />
   </project>
-  <project name="TEE-Emu-Driver" path="driver" />
-  <project name="TEE-Emu" path="emulator" />
+  <project name="tee-engine-Driver" path="driver" />
+  <project name="tee-engine" path="emulator" />
   <project name="libtee" path="libtee" />
   <project name="tests" path="tests" />
-  <project name="TA_tests" path="TAs" />
+  <project name="TAs" path="TAs" />
+  <project name="CAs" path="CAs" />
 </manifest>
