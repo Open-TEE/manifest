@@ -7,6 +7,8 @@
     <copyfile src="project.qbs" dest="project.qbs" />
     <copyfile src=".editorconfig" dest=".editorconfig" />
     <copyfile src="post-commit" dest=".repo/repo/hooks/post-commit" />
+    <copyfile src="checkpatch.pl" dest=".repo/manifests/scripts/global_checkpatch" />
+    <copyfile src="whitelist.txt" dest=".repo/manifests/scripts/whitelist.txt" />
   </project>
   <project name="tee-engine-Driver" path="driver" />
   <project name="tee-engine" path="emulator" />
