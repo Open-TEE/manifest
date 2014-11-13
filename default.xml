@@ -13,4 +13,5 @@
   <project name="tests" path="tests" />
   <project name="TAs" path="TAs" />
   <project name="CAs" path="CAs" />
+  <project name="opentee-extension-chrome" path="chrome" />
 </manifest>
