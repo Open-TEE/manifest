@@ -16,6 +16,7 @@
   <project name="tee-engine-Driver" path="driver" />
   <project name="tee-engine" path="emulator" />
   <project name="libtee" path="libtee" />
+  <project name="libtee_pkcs11" path="libtee_pkcs11" />
   <project name="tests" path="tests" />
   <project name="TAs" path="TAs" />
   <project name="CAs" path="CAs" />
