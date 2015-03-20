@@ -21,4 +21,5 @@
   <project name="TAs" path="TAs" />
   <project name="CAs" path="CAs" />
   <project name="opentee-extension-chrome" path="chrome" />
+  <project name="tui-virtualdisplay-qt" path="tui-virtualdisplay-qt" />
 </manifest>
