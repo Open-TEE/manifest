@@ -9,6 +9,8 @@
     <copyfile src="autogen.sh" dest="autogen.sh" />
     <copyfile src="configure.ac" dest="configure.ac" />
     <copyfile src="Makefile.am" dest="Makefile.am" />
+    <copyfile src="Android.mk" dest="Android.mk" />
+    <copyfile src="install_android.sh" dest="install_android.sh" />
   </project>
   <project name="tee-engine-Driver" path="driver" />
   <project name="tee-engine" path="emulator" />
