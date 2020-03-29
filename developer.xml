@@ -6,9 +6,10 @@
     <copyfile src="README.md" dest="README" />
     <copyfile src="project.qbs" dest="project.qbs" />
     <copyfile src=".editorconfig" dest=".editorconfig" />
-    <copyfile src="post-commit" dest=".repo/repo/hooks/post-commit" />
+<!--    <copyfile src="post-commit" dest=".repo/repo/hooks/post-commit" />
     <copyfile src="checkpatch.pl" dest=".repo/manifests/scripts/global_checkpatch" />
-    <copyfile src="whitelist.txt" dest=".repo/manifests/scripts/whitelist.txt" />
+    <copyfile src="whitelist.txt" dest=".repo/manifests/scripts/whitelist.txt"
+    /> -->
     <copyfile src="autogen.sh" dest="autogen.sh" />
     <copyfile src="configure.ac" dest="configure.ac" />
     <copyfile src="Makefile.am" dest="Makefile.am" />
