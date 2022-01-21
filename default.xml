@@ -4,7 +4,6 @@
   <default remote="origin" revision="master" />
   <project name="project" path="project" >
     <copyfile src="README.md" dest="README" />
-    <copyfile src="project.qbs" dest="project.qbs" />
     <copyfile src=".editorconfig" dest=".editorconfig" />
     <copyfile src="autogen.sh" dest="autogen.sh" />
     <copyfile src="configure.ac" dest="configure.ac" />
