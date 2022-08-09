@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest>
+  <remote fetch="https://github.com/Open-TEE/" name="origin" review="https://review.gerrithub.io/Open-TEE" />
+  <remote fetch="https://github.com/OP-TEE/"   name="optee" />
+  <remote fetch="https://github.com/acaldaya/" name="acaldaya" />
+
+  <default remote="origin" revision="master" />
+  <project name="project" path="project" >
+    <copyfile src="README.md" dest="README" />
+    <copyfile src=".editorconfig" dest=".editorconfig" />
+    <copyfile src="autogen.sh" dest="autogen.sh" />
+    <copyfile src="configure.ac" dest="configure.ac" />
+    <copyfile src="Makefile.am" dest="Makefile.am" />
+    <copyfile src="Android.mk" dest="Android.mk" />
+    <copyfile src="install_android.sh" dest="install_android.sh" />
+    <copyfile src="opentee" dest="opentee" />
+  </project>
+  <project name="tee-engine-Driver" path="driver" />
+  <project name="libtee" path="libtee" />
+  <project name="libtee_pkcs11" path="libtee_pkcs11" />
+  <project name="tests" path="tests" />
+  <project name="TAs" path="TAs" />
+  <project name="CAs" path="CAs" />
+  <project name="opentee-extension-chrome" path="chrome" />
+  <project name="libomnishare" path="libomnishare" />
+
+  <project name="optee_client" path="optee_client" remote="optee" revision="e7cba71cc6e2ecd02f412c7e9ee104f0a5dffc6f" />
+  <project name="optee_os"     path="optee_os"     remote="optee" revision="13bd79f46ea274144a9b838e5fa53c7cf721bbfb" />
+
+  <project name="opentee-tee-engine" path="emulator"   remote="acaldaya" revision="ac/dev" />
+  <project name="optee_test"         path="optee_test" remote="acaldaya" revision="opentee_backend" />
+</manifest>
